@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resistor Trainer</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="onPageLoad()">
+<div id="resistor">
+    <div class="band" id="b1"></div>
+    <div class="band" id="b2"></div>
+    <div class="band" id="b3"></div>
+    <div class="band" id="b4"></div>
+    <div class="band" id="b5"></div>
+</div>
+
+<div id="input">
+    <form onsubmit="checkResult()">
+        <label for="field"></label><input id="field" type="text" autofocus placeholder="resistance tolerance">
+        <input id="btn" type="submit" value="Check">
+    </form>
+</div>
+</body>
+</html>
